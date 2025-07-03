@@ -1,0 +1,1 @@
+alert(jesus is lord);
