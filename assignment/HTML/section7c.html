@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics</title>
+    <link rel="stylesheet" href="section7c.css">
+
+<style>
+      body {
+        background-image: url("images/f1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #container{
+           clear: both;
+        width: 100%;
+        height: 400;
+     
+      }
+      .right {
+        float: right;
+        width: 300px;
+        height: 300px;
+        background-color: #f0f0f0;
+      }
+      .left {
+        width: 300px;
+        height: 300px;
+        background-color: #235fe0;
+      }
+      .flex-demo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        background-color: rgba(165, 8, 94, 0.5);
+      }
+      .test{
+        max-height: 100px;
+        width: 100px;
+        background-color: yellow;
+      }
+
+       .test2{
+        min-height: 100px;
+        width: 100px;
+        background-color: green;
+      }
+      </style>
+</body> 
+   <section id="container">
+      <div class="left">
+        <h1>Graphics</h1>
+        <p>
+          Graphics is a visual art form that uses images, shapes, and colors
+        </p>
+        <img
+          src="./image/d45638a9-325b-4cac-80fa-65086df2cf7d.jpeg"
+          height="151"
+          width="225"
+          alt=""
+        />
+      </div>
+      <br />
+      <div class="right">
+        <img src="image/5012d00c-01c7-42aa-83cb-c5158cea579f.jpeg" height="151" width="225" alt="" />
+        <h1>animation</h1>
+    
+        <p class="text">
+            
+          Animation is the process of creating moving images through a series of
+          still images
+        </p>
+      </div>
+    </section>   
+</body>
+</html>

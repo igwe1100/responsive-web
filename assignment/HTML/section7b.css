@@ -1,0 +1,42 @@
+body {
+        background-image: url("./image/company\ logo.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #container{
+        
+        width: 20%;
+        height: 200;
+        margin-left: 850px;
+        margin-top:-120px;
+     
+      }
+    
+      
+      .flex-demo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+      }
+      .test{
+        max-height: 100px;
+        width: 100px;
+        background-color: yellow;
+      }
+
+       .test2{
+        min-height: 300px;
+        width: 300px;
+        color: white;
+      }
+    .text{
+        font-size:20px ;
+        color:rgb(14, 14, 238);
+
+    }
+    #logo{
+        border-radius: 50%;
+    }
